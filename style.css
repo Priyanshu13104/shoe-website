@@ -26,6 +26,10 @@
 .logo-img{
     height: 70px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo-img:hover{
+    transform: scale(1.05);
 }
 .nav-links{
     list-style-type: none;
@@ -40,7 +44,7 @@
     margin: 0 16px;
     padding: 0 8px;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
 }
 .link:hover{
@@ -75,7 +79,7 @@ a:hover::after{
     color: white;
 }
 .cart-heading{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     color: white;
     cursor: pointer;
@@ -89,6 +93,7 @@ a:hover::after{
 .container1{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 600px;
 }
 .row1{
@@ -97,7 +102,7 @@ a:hover::after{
 .c1-row1{
     align-items: center;
     justify-content: center;
-    margin:  140px;
+    margin-left: 100px;
 }
 .c1-row1 h1{
     text-transform: uppercase;
@@ -278,7 +283,7 @@ a:hover::after{
 
 /* video container */
 
-/* .container-video{
+.container-video{
     height: 600px;
     display: flex;
     background-color: #4aaee9;
@@ -298,7 +303,7 @@ a:hover::after{
     height: 280px;
     width: 500px;
     text-align: center;
-} */
+}
 
 /* container 4 */
 
@@ -399,4 +404,5 @@ a:hover::after{
     font-weight: 400;
     color: gray;
 }
+
 
