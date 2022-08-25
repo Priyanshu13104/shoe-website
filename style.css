@@ -231,7 +231,6 @@ a:hover::after{
 }
 .buy-now-btn:hover{
     background-color: #2985bb;
-;
 }
 .price-tag h1{
     font-size: 32px;
@@ -283,7 +282,7 @@ a:hover::after{
 
 /* video container */
 
-.container-video{
+/* .container-video{
     height: 600px;
     display: flex;
     background-color: #4aaee9;
@@ -303,7 +302,7 @@ a:hover::after{
     height: 280px;
     width: 500px;
     text-align: center;
-}
+} */
 
 /* container 4 */
 
